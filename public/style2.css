@@ -1,0 +1,89 @@
+body {
+    background-color: #E5E5E5;
+    background-size: 100% 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu{
+    font-family: Times New Roman;
+    font-weight: bold;
+    width: 100%;
+    height: 90px;
+    background:  #005B66;
+    border-radius: none;
+    font-size: 18px;
+}
+label {
+    font-family:Bodoni Moda;
+    color:white;
+    margin:10px;
+    padding:20px;
+    float:left;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    display:block;
+    background:none;
+    float:right;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.menu ul li a:hover{
+    display: block;
+    color: #ffffff;
+    background: none;
+}
+.menu ul li .dropdown {
+    display: none;
+}
+.menu ul li:hover .dropdown {
+    display: block;
+    background: #005B66;
+    position: fixed;
+    padding: 10px;
+}
+.menu ul li:hover .dropdown li{
+    display: block;
+}
+.menu ul li:hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.menu ul li:hover .dropdown li a:hover {
+    background: #005B66;
+    box-shadow: inset 0px 0px 5px #000;
+}
+.wrop{
+    background-color: #EBEBEB;
+    margin:auto;
+    width: 1100px;
+    height: 580px;
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+
+table{
+    margin:left;
+}
+table td {
+    padding: 5px;
+}
+.footer{
+    height: 30px;
+    height: 5px;
+    background-color: #005B66;
+    clear: both;
+}

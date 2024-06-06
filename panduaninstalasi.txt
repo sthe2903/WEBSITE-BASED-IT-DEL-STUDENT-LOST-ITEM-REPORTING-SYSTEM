@@ -1,0 +1,14 @@
+Panduan Instalasi Website Laporkan Saja
+1. Download file LaporkanSaja.zip
+2. Pindahkan file zip ke dalam directori/local server. Disini dapat menggunkan XAMPP atau Laragon. Jika menggunakan XAMPP, pindahkan file zip ke dalam directori htdocs. Dan jika menggunakan Laragon, pindahkan file zip ke dalam directori www
+3. Ekstrak file LaporkanSaja.zip
+4. Buka terminal dapat menggunakan (cmd, powershell, git bash), kemudian ketikan perintah 'cd LaporkanSaja' untuk masuk ke dalam directori LaporkanSaja, kemudian ketikan perintah 'code .' untuk membukanya ke dalam text editor. Untuk text editor dapat menggunakan (Visual Studio Code, Sublime Text, Notepad++)
+5. Buka local server XAMPP atau Laragon. Jika menggunakan XAMPP, start pada Apache dan MySQL. Jika menggunakan Laragon tekan tombol start all.
+6. Buka browser, dapat menggunakan (microsoft edge, chrome, firefox), kemudian pada url ketikan http://localhost/phpmyadmin/
+7. Buat data base baru dengan nama 'db_laporkansaja' sesuaikan dengan (DB_DATABASE) pada file .env
+8. Buka terminal dapat menggunakan terminal dari text editor atau dapat menggunakan ('cmd', 'powershell', 'git bash'), kemudian ketikan perintah php artisan serve
+9. Kembali ke browser dan pada url ketikan http://127.0.0.1:8000
+10. Buka kembali terminal kemudian ketikan perintah php artisan migrate --seed atau php artisan migrate:fresh --seed
+11. Login Admin: 
+	email: sthevani@gmail.com
+	password: 12345678
